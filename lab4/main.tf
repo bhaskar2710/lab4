@@ -8,8 +8,8 @@ provider "azurerm" {
 
 # 1. Create Azure connection and resource group
 
-resource "azurerm_resource_group" "aztf-rg" {
-    name     = "TerraformRG"
+resource "azurerm_resource_group" "aztf-15-rg" {
+    name     = "TerraformRG-15"
     location = "centralindia"
 
     tags = {
